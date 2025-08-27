@@ -5,14 +5,23 @@
     font-family: sans-serif;
 }
 
+nav{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
 nav span{
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 nav span h1{display: inline-block;}
 
 #sfondo-blu{
     background-color: 	#eaf8f8;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 header{
@@ -20,6 +29,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    padding: 10px 50px 5px;
 }
 
 main{
@@ -27,6 +37,8 @@ main{
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    padding: 30px 50px;
+    margin-top: 2.5px;
 }
 
 ul{
@@ -47,4 +59,63 @@ button:nth-of-type(2){
     background-color: white;
     border-color: lightgray;
     color: lightgray;
+}
+
+button{
+    font-size: 0.6em;
+    font-weight: bold;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.badge {
+    font-size: 0.6em;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.editorial{
+    background-color: #1E90FF;
+}
+
+.q1{background-color: purple;}
+
+.recruiting{background-color: green;}
+
+.mobile{background-color: orange;}
+
+.website{
+    background-color: pink;
+}
+
+.sales{
+    background-color: lime;
+}
+
+ul li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.round{ display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    font-size: 0.5em;
+    margin-right: 5px;
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.check{
+    border: 1px solid green;
+    color: green;
+}
+
+.failed{
+    border:1px solid red;
+    color: red;
 }
